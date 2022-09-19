@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Shopping</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/eshop.png" width="125px">
+        </div>
+        <nav>
+            <ul id="menuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Images/cart.png" width="30px" height="30px">
+        <img src="Images/hamicon.png"  class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout <br>A New Style!</h1>
+            <p>Your personality is what makes you separate.</p>
+            <a href="" class="btn">Explore now &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="Images/ph1.png" width="450px">
+        </div>
+    </div>
+</div>
+</div>
+<!-- Feaatured categories -->
+    <div class="categories">
+        <h2>Featured categories</h2>
+        <div class="row">
+            <div class="col-3">
+                <img src="Images/shirt2.png" height="300px" >
+            </div>
+            <div class="col-3">
+                <img src="Images/pant3.png" height="300px">
+            </div>
+            <div class="col-3">
+                <img src="Images/watch3.png" height="300px" >
+            </div>
+            <div class="col-3">
+                <img src="Images/shoe1.png" height="300px">
+            </div>
+        </div>
+    </div>
+<!-- Featured products -->
+    <div class="small-container">
+        <h2>Fetaured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/shirt1.png" height="275px" >
+                <h4>Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/pant1.png" height="275px" >
+                <h4>Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/shoe2.png" height="275px">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/watch3.png" height="275px" >
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            </div>
+            
+            </div>
+        </div>
+<!-- Recent Products -->
+<div class="small-container">
+        <h2>Recent products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/pant4.jpg" height="310px">
+                <h4>Black pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/tshirt1.png" height="300px">
+                <h4>T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="Images/shoe4.png" height="300px">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$20.00</p>
+            </div>
+         </div>
+        </div>
+<!-- Offer -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Images/watch2.png" width="400px" height="500px">
+
+                </div>
+                <div class="col-2">
+                    <h1>Exclusively available</h1>
+                    <p>Smart Watch</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>$45.00</p>
+                </div>
+                    <a href="" class="btn">Buy Now &#8594;></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Brands -->
+    <div class="brands">
+        <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src=" Images/coca.png" width="250px" height="100px" >
+            </div>
+            <div class="col-5">
+                <img src="Images/paytm.png" width="250px" height="100px">
+            </div>
+            <div class="col-5">
+                <img src="Images/byju.png" width="250px" height="100px" >
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our app</h3>
+                    <p>Download for android</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook </li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var menuItems = document.getElementById("menuItems");
+        menuItems.style.maxHeight ="0px";
+        function menutoggle(){
+            if( menuItems.style.maxHeight ="0px"){
+                menuItems.style.maxHeight ="200px"
+            }
+            else{
+                menuItems.style.maxHeight ="0px"
+            }
+
+        }
+    </script>
+</body>
+</html>
